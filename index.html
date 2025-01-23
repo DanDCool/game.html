@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal GitHub Page">
+    <title>Your Name - GitHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <Body background=”shutterstock_1017761377-min.png“>  
+    <button class="menu-btn" onclick="openSidebar()">☰ Menu</button>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="closeSidebar()">✖</button>
+        <ul>
+            <li><a href="https://dandcool.github.io/">Home</a></li>
+            <li><a href="https://dandcool.github.io/portfolio.html">Portfolio</a></li>
+            <li><a href="https://dandcool.github.io/about.html">About</a></li>
+            <li><a href="https://dandcool.github.io/contact.html">Contact</a></li>
+            <li><a href="https://dandcool.github.io/music.html">Music</a></li>
+            <li><a href="https://dandcool.github.io/persian.html">Switch to Persian</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <header class="header-container">
+            <div class="header-text">
+                <h1>Amirali Hosseini Moghaddam - Music</h1>
+                <p>Listen to some of my favorite music!</p>
+            </div>
+        </header>
+
+        <section class="box about">
+            <h2>About the songs</h2>
+            <p>These are a couple of songs I listen to sometimes...</p>
+        </section>
+
+        <section class="box projects">
+            <h2>Songs:</h2>
+            <ul>
+                <li>
+                    <h3>I follow rivers - Lykke li</h3>
+                    <audio src="11 Lykke Li - I Follow Rivers (The Magician Remix).mp3" controls></audio>
+                </li>
+                <li>
+                    <h3>Souvenir - Selena Gomez</h3>
+                    <audio src="Selena Gomez - Souvenir.mp3" controls></audio>
+                </li>
+                <li>
+                    <h3>Time Bomb - Feint</h3>
+                    <audio src="Feint - Time Bomb (feat. Veela   Boyinaband).mp3" controls></audio>
+                </li>         
+            </ul>
+        </section>
+
+        <section class="box contact">
+            <h2>Contact</h2>
+            <p>You can reach me at <a href="mailto:amirali.hm.2006@gmail.com">amirali.hm.2006@gmail.com</a>.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Amirali Hosseini Moghaddam. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function openSidebar() {
+            document.getElementById("sidebar").style.width = "250px";
+        }
+
+        function closeSidebar() {
+            document.getElementById("sidebar").style.width = "0";
+        }
+    </script>
+</body>
+</html>
